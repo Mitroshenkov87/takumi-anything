@@ -1,0 +1,51 @@
+# UI strings shown in English until native speakers review their translations.
+# One per line, written as in a catalog's first column (\n for a line break).
+# `cargo xtask i18n-coverage` lets these be missing from the catalogs, and fails once a string
+# here is translated in every catalog or no longer shown: the translation PR takes it out.
+Open in its own window
+Copy these lines
+Wrap long lines
+Drag to change the height
+{name}: build activity
+{name} is turned off. Turn it on or choose another AI.
+That folder's name has characters Takumi Anything can't read. Pick another folder.
+Does the site show more once you're signed in?
+Sign in to this site
+A browser window opens: sign in there yourself, then close it. Takumi Anything never sees your password. The sign-in is kept on this computer and used when this site is studied.
+Sign in in the browser window that opened, then close it.
+Stop waiting
+Finish signing in to the site first.
+Couldn't sign in to the site.
+The sign-in window was closed. Studies of this site will use what it saved.
+Your sign-in was saved, but the site still asks you to sign in. Sign in again and choose "remember me" if the site offers it.
+Your sign-in was saved, but opening the site again to check it didn't work.
+The sign-in window was open too long, so it was closed. What it had saved is kept.
+Stopped waiting for the sign-in window. What it had saved is kept.
+Stopped the sign-in.
+From your request:
+A sign-in is saved for this site, and studies of it use it.
+The window opens with the saved sign-in; what you leave when you close it replaces it. To use another account, sign out on the site there first.
+Forget the saved sign-in
+Studies of this site start signed out again.
+Forgot the saved sign-in. Studies of this site start signed out again.
+No sign-in was saved, so there was nothing to forget.
+Couldn't forget the sign-in.
+Wait until the new project is made.
+This project's usage record couldn't be read, so what its builds spent isn't known.
+Search project files
+This run used {tokens}, {cost}.
+This run used {tokens}. Its cost isn't known: not every turn reported its own.
+This run's builder didn't report how many tokens it used.
+Take a sound out of an Unreal game
+Allow irreversible phone changes without asking (at your own risk)
+Flashing, rooting, unlocking the bootloader and wiping partitions go ahead without a card each time. Other actions keep their own approvals.
+Allow irreversible phone changes?
+Irreversible phone changes will go ahead without asking: flashing, rooting, unlocking the bootloader and wiping partitions. They can erase everything on the device, void its warranty or stop it starting, and none of them can be undone. You do this at your own risk.
+Only for this project. Turn it off in Approvals at any time.
+I understand, allow at my own risk
+Keep asking
+In this project, irreversible phone changes go ahead without asking, at your own risk.
+In this project, each irreversible phone change asks first.
+Let the connected AI make assets first
+Make assets with the service only
+By default, pictures, 3D models and other assets are first made by the connected AI (Kimi, Grok, etc.) if it can; the service below is used when it can't or when this is off.

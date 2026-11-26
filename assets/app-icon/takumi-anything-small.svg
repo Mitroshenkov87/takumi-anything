@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Takumi Anything app icon, 16-32 px drawing: same trowel-and-wall, thicker joints, 2-tone facets only. -->
+  <rect width="512" height="512" rx="52" fill="#1C1B19"/>
+  <rect x="56" y="276" width="400" height="180" rx="8" fill="#C9C0B4"/>
+  <!-- Bottom course, 3 bricks. -->
+  <rect x="68" y="368" width="120" height="76" rx="4" fill="#C4623A"/>
+  <rect x="68" y="368" width="120" height="16" rx="4" fill="#D4784C"/>
+  <rect x="204" y="368" width="120" height="76" rx="4" fill="#C4623A"/>
+  <rect x="204" y="368" width="120" height="16" rx="4" fill="#D4784C"/>
+  <rect x="340" y="368" width="104" height="76" rx="4" fill="#C4623A"/>
+  <rect x="340" y="368" width="104" height="16" rx="4" fill="#D4784C"/>
+  <!-- Top course, running bond. -->
+  <rect x="68" y="288" width="56" height="64" rx="4" fill="#C4623A"/>
+  <rect x="68" y="288" width="56" height="14" rx="4" fill="#D4784C"/>
+  <rect x="140" y="288" width="120" height="64" rx="4" fill="#B55532"/>
+  <rect x="140" y="288" width="120" height="14" rx="4" fill="#D4784C"/>
+  <rect x="276" y="288" width="120" height="64" rx="4" fill="#C4623A"/>
+  <rect x="276" y="288" width="120" height="14" rx="4" fill="#D4784C"/>
+  <rect x="412" y="288" width="32" height="64" rx="4" fill="#C4623A"/>
+  <polygon fill="#6E2E18" points="248,304 368,348 352,356 232,316"/>
+  <g transform="translate(276,224) rotate(-32)">
+    <rect x="-26" y="-240" width="52" height="176" rx="26" fill="#B17848"/>
+    <rect x="0" y="-232" width="24" height="160" rx="12" fill="#8A5A32"/>
+    <rect x="-30" y="-84" width="60" height="36" rx="4" fill="#B0AAA0"/>
+    <rect x="-16" y="-56" width="32" height="52" fill="#D8D3C8"/>
+    <polygon fill="#D8D3C8" points="0,236 -96,20 -80,-16 80,-16 96,20"/>
+    <polygon fill="#EDE9E0" points="-80,-16 -96,20 -32,110 8,-16"/>
+    <polygon fill="#8A847C" points="0,236 96,20 80,16 0,200"/>
+    <polygon fill="#C4623A" points="0,236 -28,188 22,196"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Takumi Anything
+GenericName=Software Explorer
+Comment=Find out how any software works, then craft your own
+Exec=takumi-anything %F
+TryExec=takumi-anything
+Icon=io.github.mitroshenkov87.takumi-anything
+Terminal=false
+StartupNotify=false
+StartupWMClass=io.github.mitroshenkov87.takumi-anything
+Categories=Development;Debugger;
+Keywords=reverse engineering;disassembler;binary;analysis;executable;decompiler;inspect;

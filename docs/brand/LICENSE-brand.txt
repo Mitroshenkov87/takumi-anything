@@ -1,0 +1,9 @@
+Takumi Anything brand assets in this directory
+
+docs/brand/takumi-anything-wordmark.svg is original work for the Takumi Anything fork
+(Aleksandr Mitroshenkov, 2026). You may use it with this repository under the same
+terms as the project (MIT OR Apache-2.0).
+
+ArtCraft / Craft Anything marks are NOT present in this directory. They remain owned
+by the ArtCraft Team, are not open source, and must not be redistributed as this
+fork's identity. See NOTICE and the upstream repository for ArtCraft attribution.

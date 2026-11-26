@@ -1,0 +1,9 @@
+Takumi Anything app icon and wordmark (takumi-anything.svg, takumi-anything-small.svg, every file
+derived from them in this directory and its hicolor/ tree, and docs/brand/takumi-anything-wordmark.svg).
+
+Original artwork made for Takumi Anything by Aleksandr Mitroshenkov in 2026 (AI-assisted). Licensed
+under the same terms as the code: MIT OR Apache-2.0, at your option. The wordmark's letters are
+outlined from Inter (SIL Open Font License 1.1, see assets/fonts/OFL-Inter.txt).
+
+The previous icon of the project this fork is based on (the ArtCraft raven) is not open source and is
+not included.

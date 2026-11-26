@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Takumi Anything — master craftsman for software rebuilds</title>
+  <meta name="description" content="Unofficial Craft Anything fork: Kimi and Grok builders, own llama.cpp, Devices, assets by the connected AI. Source on GitHub. MIT OR Apache-2.0.">
+  <link rel="icon" href="icon-256.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img class="icon" src="icon-256.png" width="96" height="96" alt="Takumi Anything: trowel and brick wall">
+      <img class="word" src="brand/takumi-anything-wordmark.svg" alt="Takumi Anything">
+      <h1>Takumi Anything</h1>
+      <p class="tag">See how a website, app or game works — then have AI build your own version.<br>
+        <span class="jp">匠 Takumi</span> means master craftsman.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/Mitroshenkov87/takumi-anything">View source on GitHub</a>
+        <a class="btn btn-ghost" href="https://github.com/Mitroshenkov87/takumi-anything#build-from-source">Build from source</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Why we made this</h2>
+      <div class="card">
+        <p>We downloaded the earlier Craft and found no way to connect <strong>Kimi Code</strong>, so we built that.
+        Local models were a hot topic, so we added them our way — Takumi's own <strong>llama.cpp</strong> engine.</p>
+        <p>We did this before the upstream release / refactor. This is a <strong>prototype</strong>: a sketch of ideas
+        the Craft team may never use as code — just to show what could be added.</p>
+        <p class="muted">Unofficial fork of <a href="https://github.com/storytold/craft-anything">storytold/craft-anything</a>.
+        Provided <strong>AS IS</strong>, without warranty. MIT OR Apache-2.0.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What's different</h2>
+      <ul>
+        <li><strong>Kimi Code</strong> and <strong>Grok Build</strong> as builders (and other Agent CLIs)</li>
+        <li><strong>Local AI</strong> tab with the program's own llama.cpp — nothing sent away</li>
+        <li><strong>Devices</strong> — red “at your own risk” only for irreversible phone actions (off by default)</li>
+        <li><strong>Assets by the connected AI first</strong>; fal.ai is the fallback</li>
+        <li>Clean room / Deep · uniform UI (two button sizes) · CLI parity · starts from zero</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>The program</h2>
+      <div class="shots">
+        <figure>
+          <img src="screenshots/g-make.png" alt="Make: pick what to recreate, say what you want, press Start">
+          <figcaption>Make — pick what to recreate, say what you want, press Start</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/g-project.png" alt="Color Lines ready, assets by the connected AI first">
+          <figcaption>Color Lines by Kimi Code — ready, assets by the connected AI first</figcaption>
+        </figure>
+        <div class="pair">
+          <figure>
+            <img src="screenshots/k-7-line-cleared.png" alt="Color Lines with a line cleared">
+            <figcaption>The game running</figcaption>
+          </figure>
+          <figure>
+            <img src="screenshots/g-danger-mode.png" alt="At your own risk warning">
+            <figcaption>Irreversible phone option</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Build from source</h2>
+      <p>Stable Rust. From the repository:</p>
+      <div class="card">
+        <p><code>cargo build --release -p takumi-anything -p takumi-anything-cli</code><br>
+        <code>cargo run --release -p takumi-anything</code></p>
+      </div>
+      <p class="muted">Does not replace Craft Anything. Source:
+        <a href="https://github.com/Mitroshenkov87/takumi-anything">github.com/Mitroshenkov87/takumi-anything</a></p>
+    </section>
+
+
+    <section>
+      <h2>Support</h2>
+      <p>If you'd like to help: donations cover the AI tokens and time spent building this.</p>
+      <div class="card">
+        <p>Donations (TRON TRC-20, USDT or TRX): <code>TYveZBXaSpM4FEHa6iGrc7A6zuLfS4z3x6</code></p>
+        <p class="muted">Send only via the TRON (TRC-20) network; other networks lose funds permanently.</p>
+      </div>
+    </section>
+
+    <footer>
+      Based on Craft Anything by ArtCraft · Modifications © 2026 Aleksandr Mitroshenkov ·
+      <a href="https://github.com/Mitroshenkov87/takumi-anything">Source</a>
+    </footer>
+  </div>
+</body>
+</html>

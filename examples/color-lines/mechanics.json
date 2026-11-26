@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "values": [
+    {"name":"board width","group":"board","value":9,"unit":"cells","source":"request"},
+    {"name":"board height","group":"board","value":9,"unit":"cells","source":"request"},
+    {"name":"ball colors","group":"board","value":7,"source":"request"},
+    {"name":"initial balls","group":"turns","value":5,"estimated":true},
+    {"name":"balls per non-scoring turn","group":"turns","value":3,"source":"request"},
+    {"name":"preview balls","group":"interface","value":3,"source":"request"},
+    {"name":"minimum line length","group":"scoring","value":5,"unit":"balls","source":"request"},
+    {"name":"points per cleared ball","group":"scoring","value":2,"estimated":true},
+    {"name":"movement animation","group":"movement","value":75,"unit":"ms per cell","estimated":true},
+    {"name":"pathfinding","group":"movement","value":"breadth-first search, orthogonal steps","source":"request"},
+    {"name":"clear directions","group":"scoring","value":"horizontal, vertical, both diagonals","source":"request"},
+    {"name":"spawn after scoring move","group":"turns","value":false,"source":"request"},
+    {"name":"game over","group":"rules","value":"board full after line resolution","source":"request"},
+    {"name":"interface language","group":"interface","value":"English","source":"request"}
+  ]
+}

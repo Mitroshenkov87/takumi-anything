@@ -20,7 +20,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Rust toolchain
         shell: pwsh
@@ -30,7 +30,7 @@ jobs:
           rustc -vV
 
       - name: Cache cargo
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             ~/.cargo/registry
@@ -61,7 +61,7 @@ jobs:
             "$h  $($_.Name)" | Tee-Object -Append -FilePath dist/release/SHA256SUMS.txt
           }
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: takumi-anything-windows-x64
           path: dist/release/*
